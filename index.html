@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Deep map Arnhem</title>
+	<link rel="stylesheet" href="styles/base.css" />
+	<script src="js/myscripts.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+</head>
+<body>
+	
+
+	
+	<div id="background">
+
+	</div>
+	
+	
+	<!-- personal layer -->
+	
+	<div id="hoverpersonal"></div>
+	<div id="clickpersonal">
+
+
+		<!-- praat en denk wolken  -->
+		
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1382 1032">
+
+		<g class="wolk" id="job" onclick="openJob()">
+		<ellipse cx="423.25" cy="313.18" rx="33.11" ry="19.74"/>
+		<polygon points="419.76 318.34 399.98 319.16 377.26 346.27 419.76 318.34"/>
+		</g>
+
+		<g class="wolk" onclick="openBalkon()">
+		<ellipse  cx="438.97" cy="473.9" rx="33.11" ry="19.74"/>
+		<circle cx="460.99" cy="502.27" r="6.59"/>
+		<circle cx="473.3" cy="514.59" r="4.55"/>
+		</g>
+
+		<g class="wolk" id="rechtbank"onclick="openRechtbank()">
+		<ellipse cx="879.89" cy="623.07" rx="33.11" ry="19.74"/>
+		<polygon points="877.61 632.6 857.83 633.41 853.32 659.31 877.61 632.6"/>
+		</g>
+
+		<!-- facebook  -->
+		<g class="wolk" onclick="openVuurpijl()">
+		<path d="M595.81,428.84a8.71,8.71,0,0,0-8.4-8.4H553.79a8.71,8.71,0,0,0-8.4,8.4v33.62a8.71,8.71,0,0,0,8.4,8.4H570.6V451.81h-6.16v-8.4h6.16v-3.28c0-5.65,4.24-10.73,9.46-10.73h6.79v8.4h-6.79a2.06,2.06,0,0,0-1.61,2.25v3.35h8.4v8.4h-8.4v19.05h9a8.71,8.71,0,0,0,8.4-8.4Zm0,0"/>
+		</g>
+		</svg>
+
+		<!-- explore -->
+
+		<div id="vuurpijl">
+			<div class="kader2">
+					<svg class="pijl3" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39">
+					<polygon class="personalcolor" points="0 19.5 33.77 39 33.77 0 0 19.5"/>
+					</svg>
+
+			
+					<div class="title2">
+						<h3>Find the differences!</h3>
+					</div>
+					<div class=tekst2>
+
+						<p class="info"><span class="uppercase">Thought</span> It is always nice to look up.</p>
+						<p>I often notice that looking up in a city gives a whole different perspective. I noticed these balkonies, the owners tried to make them look nice. The balkonies are all different but also the same. Try pressing the doorbel, maybe they are home!?</p>	
+					</div>	
+			</div>
+		</div>
+
+		<div id="balkon">
+			<div class="kader2">
+					<svg class="pijl3" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39">
+					<polygon class="personalcolor" points="0 19.5 33.77 39 33.77 0 0 19.5"/>
+					</svg>
+
+			
+						<div class="title2">
+						<h3>Find the differences!</h3>
+						</div>
+							<div class=tekst2>
+
+								<p class="info"><span class="uppercase">Thought</span> That's cute!</p>
+								<p>I often notice that looking up in a city gives a whole different perspective. I noticed these balkonies, the owners tried to make them look nice. The balkonies are all different but also the same.</p>	
+						</div>	
+			</div>				
+		</div>
+
+			<div id="bel">
+				
+					<div id=aron>
+
+						<p class="info"><span class="uppercase"> <a href="https://www.facebook.com/aron.vuurpijl" target="_blank">Aron Vuurpijl</a> </span> <br>nice to meet you! </p>
+						<p> I’m a  <a href="https://500px.com/aronvuurpijl" target="_blank">videographer</a> and I love redheads. Actually it's quite scary how much you know about me!</p>	
+					</div>	
+
+					<div id=ganya>
+
+						<p class="info"><span class="uppercase"><a href="https://www.facebook.com/ganya.kortschot" target="_blank">Ganya Kortschot</a>  </span> <br>nice to meet you! </p>
+						<p> I’m a nurce and I've been with Aron for five years now. <br>And will you please leave me alone now! </p>	
+					</div>	
+
+
+			</div>
+
+		<div id="tattoo">
+			<div class="kader2">
+					<svg class="pijl3" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39">
+					<polygon class="personalcolor" points="0 19.5 33.77 39 33.77 0 0 19.5"/>
+					</svg>
+
+			
+					<div class="title2">
+						<h3>Tattoo</h3>
+					</div>
+					<div class=tekst2>
+
+						<p class="info"><span class="uppercase">Thought</span> Do they have a mind full tattoos or are the tattoos 'mindfull'?</p>
+						<p>Since I loved the setting of the tattoo shop with these three guys preparing for a days work at <a href="http://www.mindfulltattoos.nl" target="_blank">Mind Full Tattoos</a> I wanted to take a picture. Of course I ask these tough looking guys, don't want to get into problems! </p>	
+					</div>	
+
+		</div>
+	</div>
+
+	<div id="hoverdance"></div>
+
+		<div id="dance">
+			<div class="kader2">
+					<svg class="pijl3" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39">
+					<polygon class="personalcolor" points="0 19.5 33.77 39 33.77 0 0 19.5"/>
+					</svg>
+
+			
+					<div class="title2">
+						<h3>Is dance a hidden language of the soul?</h3>
+					</div>
+					<div class=tekst2>
+
+						<p class="info"><span class="uppercase">Thought</span> I'm not sure if I agree with this quote of <a href="https://en.wikiquote.org/wiki/Martha_Graham" target="_blank">Martha Graham</a></p>
+						<p> This tekst was written on one of the doors of the city theatre. I like the quote, but I think you need to be really passionate about dancing to agree with it. And I'm just not... </p>
+					</div>	
+
+		</div>
+
+		<div id="vogel">
+			<div class="kader2">
+					<svg class="pijl3" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39">
+					<polygon class="personalcolor" points="0 19.5 33.77 39 33.77 0 0 19.5"/>
+					</svg>
+
+			
+					<div class="title2">
+						<h3>A bird and a sweatband</h3>
+					</div>
+					<div class=tekst2>
+
+						<p class="info"><span class="uppercase">Thought</span> Why is he wearing a sweatband?</p>
+						<p>At first I thought that Pluto wore a coloured crown but at closer sight I saw it was a sweatband from <a href="http://www.wiekser.com" target="_blank">Wiekser</a> an alcoholic shot with orange and chili peppers. Try clicking the band, it might surprise you! <br>The bird is sitting comfortably on Pluto's head, judging on the amount of birdpoo, the bird likes this spot. </p>	
+					</div>					
+			</div>
+		</div> 
+		<div id="guys" onclick="hideGuys()"></div>
+
+			<div id="wagen">
+				
+				<div class="kader2">
+					<svg class="pijl3" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39">
+					<polygon class="personalcolor" points="0 19.5 33.77 39 33.77 0 0 19.5"/>
+					</svg>
+
+			
+					<div class="title2">
+						<h3>Ugly and abandoned</h3>
+					</div>
+					<div class=tekst2>
+
+						<p class="info"><span class="uppercase">Thought</span> This is a very depressing place.</p>
+						<p>My first encounter of the Koningsplein area felt a bit depressing. The back of the city theatre is quite ugly. The abandoned shopping cart gave the whole setting a depressing vibe. </p>	
+					</div>					
+			</div>
+			</div>
+	
+			<!-- audio -->
+
+			<div id="crosroad"onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+			
+	
+			<audio id='mySound' src='audio/crosroad.m4a'/>
+			</div>
+
+	</div>	
+	
+
+	<!-- history layer -->
+
+	<div id="hoverhistory"></div>
+	<div id="clickhistory"></div>
+		
+	
+	<!-- art layer -->
+
+	<div id="hoverart"></div>
+	<div id="clickart"></div>
+	
+	
+	
+			<!-- explore graffiti-->
+			<div id="graffiti"></div>
+			
+
+			<!--explore ESFP-->
+			<div id="ESFP" onclick="hideESFP()">
+
+	
+
+				<div class="kader">
+					<img id="plaatje" src="image/ESPF.png" alt="ESFP">
+
+					<svg id="pijl" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39"><defs></defs><title>pijl</title><polygon class="cls-1" points="0 19.5 33.77 39 33.77 0 0 19.5"/></svg>
+
+			
+					<div class="title">
+						<h3>Does Arnhem have its own Banksy?</h3>
+					</div>
+					<div class=tekst>
+
+						<p class="info"><span class="uppercase">Artist</span> <a href="https://www.instagram.com/esfp_stencils/" target="_blank">ESFP</a></p>
+						<p>ESFP is a streetartist heavily influenced by <a href="http://banksy.co.uk" target="_blank">Banksy</a>. In Arnhem he got some media attention by painting <a href="http://www.omroepgelderland.nl/nieuws/2045527/Heeft-Arnhem-een-eigen-Banksy" target="_blank">Nelson Mandela</a> under the Nelson Mandela bridge. </p>	
+					</div>	
+
+				</div>
+			</div>
+
+
+			</div> 
+
+			
+			<div id="verf" onclick="hideVerf()">
+
+	
+
+				<div class="kader">
+					<img id="plaatjeverf" src="image/2016Musis.jpg" alt="Musis">
+
+					<svg id="pijl2" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39"><defs></defs><title>pijl</title><polygon class="cls-2" points="0 19.5 33.77 39 33.77 0 0 19.5"/></svg>
+
+			
+					<div class="title">
+						<h3>Verfbrigade</h3>
+					</div>
+					<div class=tekst>
+
+						<p class="info"><span class="uppercase">Artist</span> <a href="Verfbrigade.nl" target="_blank">Verfbrigade</a> </p>
+						<p>A company run by Friso Hilhorst and Thomas van Os, founded in 2016. They were noticed by <a href="http://oogopnederland.nl/arnhem/2016/03/13/mahler/">the local newspaper</a> when making this piece .</p>	
+					</div>	
+
+				</div>
+			</div>
+
+
+			</div> 
+
+ 	<!-- ads layer -->
+	<div id="hoverwww"></div>
+	<div id="clickwww"></div>
+		
+	
+	<!-- instructions -->
+	<div id="instructions"></div>
+	
+
+		<!-- buttons -->
+
+	<!--click, hover, hide personal -->
+
+	<div id="button1" onmouseout="hoverPersonal2();" onmouseover="hoverPersonal();"onclick="openPersonal()">
+	</div>
+	<div id="button10" onclick="hidePersonal()"></div> 
+
+		<!--explore personal-->
+		<div id="button7" onclick="openVogel()"></div>
+		<div id="button8" onmouseout="hoverDance2();" onmouseover="hoverDance();"onclick="openDance()"></div>
+		<div id="button9" onclick="openTattoo()"></div>
+		<div id="button11" onclick="openWagen()"></div>
+		<div id="button12" onclick="openBel()"></div>
+		<div id="button13" onclick="openGuys()"></div>
+		<div id="button70" onclick="hideAll()"></div>
+
+	<!--click, hover, hide history -->
+	<div id="button2" onmouseout="hoverHistory2();" onmouseover="hoverHistory();"onclick="openHistory()"></div> 
+	<div id="button20" onclick="hideHistory()"></div> 
+
+	<!--click, hover, hide ART -->
+	
+	<div id="button3" onmouseout="hoverArt2();" onmouseover="hoverArt();"onclick="openArt()"></div>		
+	<div id="button30" onclick="hideArt()"></div> 
+
+	<!--click, hover, hide ads -->
+	<div id="button4" onmouseout="hoverAds2();" onmouseover="hoverAds();"onclick="openAds()"></div>
+	<div id="button40" onclick="hideAds()"></div> 
+		
+
+
+	<!-- open/hide instructions -->
+	<div id="button5" onclick="openInstructions()"></div> 
+	<div id="button50" onclick="hideInstructions()"></div> 
+
+
+		<!--explore Graffiti muur, ESFP & verfbrigade-->
+		<div id="button6" onclick="openGraffiti()"></div>
+		<div id="button60" onclick="hideGraffiti()"></div>
+
+
+		<!--click, hover, ESFO, hide bij clicking #verf -->
+		<div id="button100" onclick="openESFP()"></div> 
+
+		<!--click, hover, verfbrigade, hide bij clicking #verf -->
+
+		<div id="button101" onclick="openVerf()"></div> 
+
+	
+	
+	
+</body>
+</html>

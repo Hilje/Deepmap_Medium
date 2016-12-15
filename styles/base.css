@@ -1,0 +1,690 @@
+body {
+	font-family:helvetica;
+}
+
+p{
+	font-size:1.2em;
+	color:828A8F;
+}
+	
+	#background{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/background.png');
+	}
+
+	/*historic layer*/
+		
+	#hoverhistory{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/hover_historic.png');
+		visibility:hidden;
+	}
+	
+	#clickhistory{
+			position: absolute;
+			top:0px;
+			left:0px;
+			width:1382px;
+			height:1032px;
+			background-image: url('../image/click_history.png');
+			visibility:hidden;
+	
+		}
+
+				
+			
+			/*personal layer*/
+	
+	#hoverpersonal{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/hover_personal.png');
+		visibility:hidden;
+	}
+	
+	#clickpersonal{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/click_personal.png');
+		visibility:hidden;
+	}
+
+
+	
+		/*EXPLORE layer*/
+			#crosroad {
+			  position: absolute;
+			  background-image: url("../image/crosroad.gif");
+			  width:200px;
+			  height:232px;
+			  top:32px;
+			  left:537px;
+			  cursor:pointer;
+			  
+			  
+			}
+				/*praat en denk wolken*/
+
+			.wolk{
+				fill:#5c717d;
+				cursor:pointer;}
+			.wolk:hover{fill:#B0634F;}
+
+
+			/*CLICKS*/
+
+			#tattoo{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/tattoo.png');
+				visibility:hidden;
+			}
+
+
+			#dance{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/dance.png');
+				visibility:hidden;
+			}
+
+			#hoverdance{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/hover_dance.png');
+				visibility:hidden;
+			}
+
+
+			#wagen{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/wagen.png');
+				visibility:hidden;
+
+			}
+
+			#balkon{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/balkon.png');
+				visibility:hidden;
+			}
+
+			#vuurpijl{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/vuurpijl.png');
+				visibility:hidden;
+			}
+
+
+
+			#bel{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/facebook.png');
+				visibility:hidden;
+			}
+
+
+			#aron{
+					position: absolute;
+					font-size: 1.2em;
+					width:300px;
+					left:850px;
+					top:100px;
+					text-align:center;
+					padding-left:20px;
+					padding-right:10px;
+					color:#FFF;
+
+				}
+
+			#aron a{
+				color:#FFF;
+			}
+
+
+			#ganya{
+					position: absolute;
+					font-size: .9em;
+					width:250px;
+					left:150px;
+					top:145px;
+					text-align:center;
+					padding-left:20px;
+					padding-right:10px;
+					color:#FFF;
+
+				}
+
+			#ganya a{
+				color:#FFF;
+			}
+
+			#vogel{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/pluto.png');
+				visibility:hidden;
+			}
+
+			#guys{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1382px;
+				height:1032px;
+				background-image: url('../image/guys.png');
+				visibility:hidden;
+			}
+
+			.pijl3 {
+					fill:#B0634F;
+					position: absolute;
+					left:270px;
+					top:30px;
+					width:30px;
+				}
+
+
+			.title2 {
+					position: absolute;
+					left:300px;
+					height:100px;
+					width:300px;
+					padding-left:20px;
+					padding-right:10px;
+					font-style: bold;
+					font-size:1.2em;
+					color: white;
+					background-color:#B0634F;
+
+				}
+
+			.tekst2{
+					position: absolute;
+					width:300px;
+					left:300px;
+					top:100px;
+					padding-left:20px;
+					padding-right:10px;
+					background-color:#DFC1B9;
+
+				}
+
+				.kader2{
+					position: absolute;
+					left:790px;
+					top:100px;
+	
+	
+				}
+
+				.kader2 a {
+					color:#B0634F;
+				}
+				.kader2 a:visited {
+					color:#FFF;
+	
+				}
+
+	
+	/*art layer*/
+	#hoverart{
+			position: absolute;
+			top:0px;
+			left:0px;
+			width:1382px;
+			height:1032px;
+			background-image: url('../image/hover_art.png');
+			visibility:hidden;
+		}
+		
+	#clickart{
+			position: absolute;
+			top:0px;
+			left:0px;
+			width:1382px;
+			height:1032px;
+			background-image: url('../image/click_art.png');
+			visibility:hidden;
+	
+		}
+
+	
+			/* explore art*/
+			
+				#graffiti {
+				position: absolute;
+					top:0px;
+					left:0px;
+					width:1382px;
+					height:1032px;
+					background-image: url('../image/graffiti.png');
+					visibility:hidden;
+				}
+
+				#ESFP {
+					visibility:hidden;
+				}
+
+				.cls-1{fill:#828A8F;}
+				.cls-2{fill:#F9FAFA;}
+
+				#pijl {
+					position: absolute;
+					left:270px;
+					top:30px;
+					width:30px;
+				}
+				#pijl2 {
+					position: absolute;
+					left:400px;
+					top:285px;
+					width:30px;
+					-ms-transform: rotate(-90deg); /* IE 9 */
+					-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+					transform: rotate(-90deg);
+	
+				}
+
+				.kader{
+					position: absolute;
+					left:300px;
+					top:100px;
+	
+	
+				}
+
+				.kader a {
+					color:#D91C5B;
+				}
+				.kader a:visited {
+					color:#88A8A2;
+	
+				}
+
+				#plaatje{
+					position:absolute;
+					height:800px;
+				}
+
+				.title {
+					position: absolute;
+					left:300px;
+					height:100px;
+					width:300px;
+					padding-left:20px;
+					padding-right:10px;
+					font-style: bold;
+					font-size:1.2em;
+					color: white;
+					background-color:#828A8F;
+
+				}
+
+				.tekst{
+					position: absolute;
+					width:300px;
+					left:300px;
+					top:100px;
+					padding-left:20px;
+					padding-right:10px;
+					background-color:#F9FAFA;
+
+				}
+
+
+				
+				.uppercase {
+					text-transform: uppercase;
+					font-size:1.1em;
+					font-style:bold;
+				}
+
+
+
+				.info {
+					font-style: bold;
+				}
+
+					
+				#verf {
+					visibility:hidden;
+				}
+		
+				#plaatjeverf{
+					position:absolute;
+					top:350px;
+				}
+
+				
+ 
+	
+	/*www layer*/
+	
+	#hoverwww{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/hover_www.png');
+		visibility:hidden;
+	}
+	
+	#clickwww{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/click_www.png');
+		visibility:hidden;
+	}
+
+
+	
+/*instructions*/
+#instructions{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/Instruction.png');
+		visibility:hidden;
+		
+	}
+	
+		
+
+	/*buttons*/
+
+		/*open personal*/
+
+		#button1{
+		position: absolute;
+		top:680px;
+		left:1100px;
+		width:200px;
+		height:40px;
+		cursor:pointer;		
+		}
+
+		/*hide personal*/
+
+		#button10{
+			position: absolute;
+			top:680px;
+			left:1250px;
+			width:40px;
+			height:40px;
+			cursor:pointer;	
+			visibility:hidden;			
+		}
+
+		/*open history*/
+
+		#button2{
+		position: absolute;
+		top:740px;
+		left:1100px;
+		width:200px;
+		height:40px;
+		cursor:pointer;	
+		}
+	
+	
+		/* hide history */
+		
+		#button20{
+			position: absolute;
+			top:740px;
+			left:1250px;
+			width:40px;
+			height:40px;
+			cursor:pointer;	
+			visibility:hidden;			
+		}
+	
+
+		/* click or hover art*/
+		#button3{
+			position: absolute;
+			top:800px;
+			left:1100px;
+			width:200px;
+			height:40px;
+			cursor:pointer;		
+		}
+		
+		 /* hide art*/
+
+		 #button30{
+			 position: absolute;
+			 top:800px;
+			 left:1250px;
+			 width:40px;
+			 height:40px;
+			 cursor:pointer;	
+			 visibility:hidden;			
+		 }
+
+		 #button4{
+			position: absolute;
+			top:860px;
+			left:1100px;
+			width:200px;
+			height:40px;
+			cursor:pointer;		
+			}
+		
+			/*hide www layer*/
+		#button40{
+			position: absolute;
+			top:860px;
+			left:1250px;
+			width:40px;
+			height:40px;
+			cursor:pointer;	
+			visibility:hidden;
+						
+		}
+
+		/*open instruction layer*/
+
+		#button5{
+		position: absolute;
+		top:70px;
+		left:1100px;
+		width:180px;
+		height:30px;
+		cursor:pointer;
+		}
+
+		/*hide instruction layer*/
+		#button50{
+		position: absolute;
+		top:70px;
+		left:1100px;
+		width:180px;
+		height:30px;
+		cursor:pointer;
+		visibility:hidden;
+		}
+
+
+		/* open schutting*/
+
+		#button6{
+		position: absolute;
+		top:140px;
+		left:370px;
+		width:300px;
+		height:100px;
+		cursor:pointer;	
+		visibility:hidden;
+		}
+
+
+					
+		/* hide schutting*/
+		#button60{
+		position: absolute;
+		top:85px;
+		left:83px;
+		width:40px;
+		height:40px;
+		cursor:pointer;	
+		visibility:hidden;	
+		}	
+
+
+		/* open vogel*/
+
+		#button7{
+		position: absolute;
+		top:200px;
+		left:950px;
+		width:100px;
+		height:220px;
+		cursor:pointer;	
+		visibility:hidden;
+		}
+
+		/* open DANCE*/
+
+		#button8{
+		position: absolute;
+		top:360px;
+		left:680px;
+		width:190px;
+		height:200px;
+		cursor:pointer;	
+		visibility:hidden;
+		}
+
+
+		/* open tattoo*/
+
+		#button9{
+		position: absolute;
+		top:280px;
+		left:140px;
+		width:210px;
+		height:150px;
+		cursor:pointer;	
+		visibility:hidden;
+		}
+
+
+		#button11{
+		position: absolute;
+		top:650px;
+		left:400px;
+		width:210px;
+		height:200px;
+		cursor:pointer;	
+		visibility:hidden;
+		}
+
+		/* open bel*/
+
+		#button12{
+		position: absolute;
+		top:390px;
+		left:540px;
+		width:40px;
+		height:40px;
+		cursor:pointer;	
+		visibility:hidden;
+		}
+
+/* open headband*/
+		#button13{
+		position: absolute;
+		top:480px;
+		left:500px;
+		width:350px;
+		height:40px;
+		cursor:pointer;	
+		visibility:hidden;
+		-ms-transform: rotate(-10deg); /* IE 9 */
+		-webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+		transform: rotate(-10deg);
+		}
+		
+	/* hide all personall extras*/
+		#button70{
+		position: absolute;
+		top:45px;
+		left:380px;
+		width:60px;
+		height:60px;
+		cursor:pointer;	
+		visibility:hidden;
+		}		
+
+		/*open esfp layer*/
+		#button100{
+		position: absolute;
+		top:330px;
+		left:280px;
+		width:90px;
+		height:300px;
+		cursor:pointer;
+		visibility:hidden;
+		}
+
+		/*open verfbrigade layer*/
+		#button101{
+		position: absolute;
+		top:350px;
+		left:400px;
+		width:540px;
+		height:150px;
+		cursor:pointer;
+		visibility:hidden;
+		}
+	

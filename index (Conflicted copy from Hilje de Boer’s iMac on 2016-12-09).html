@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Deep map Arnhem</title>
+	<link rel="stylesheet" href="styles/base.css" />
+	<script src="js/myscripts.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+</head>
+<body>
+	
+
+	
+	<div id="background">
+
+	</div>
+	
+	
+	<!-- instructions -->
+	<div id="instructions"></div>
+	
+	<div id="button5" onclick="openInstructions()"></div> 
+	<div id="button6" onclick="hideInstructions()"></div> 
+	
+	
+	<!-- hover -->
+	<div id="hover1"></div>
+	<div id="button1" onmouseout="hoverPersonal2();" onmouseover="hoverPersonal();"></div>
+	
+	<div id="hover2"></div>
+	<div id="button2" onmouseout="hoverHistory2();" onmouseover="hoverHistory();"></div>
+	
+	<!-- 
+<div id="hover3"></div>
+	<div id="button3" onmouseout="hoverArt2();" onmouseover="hoverArt();"></div>
+ -->
+	
+	<div id="hover4"></div>
+	<div id="button4" onmouseout="hoverAds2();" onmouseover="hoverAds();"></div>
+	
+	
+	<!--onclick art -->
+	<div id="art"></div>
+	
+	<div id="button27" onclick="openArt()"></div> 
+	<div id="button28" onclick="hideArt()"></div> 
+	
+	
+	<!--explore category-->
+	
+	
+	<!-- explore graffiti-->
+	
+	<div id="graffiti"></div>
+	<div id="button100" onclick="openGraffiti()"></div>
+	<div id="button101" onclick="hideGraffiti()"></div>
+
+	<!--explore ESFP-->
+	<div id="button7" onclick="openESFP()"></div> 
+	<div id="ESFP" onclick="hideESFP()">
+
+	
+
+		<div class="kader">
+			<img id="plaatje" src="image/ESPF.png" alt="ESFP">
+
+			<svg id="pijl" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39"><defs></defs><title>pijl</title><polygon class="cls-1" points="0 19.5 33.77 39 33.77 0 0 19.5"/></svg>
+
+			
+			<div class="title">
+				<h3>Does Arnhem have its own Banksy?</h3>
+			</div>
+			<div class=tekst>
+
+				<p class="info"><span class="uppercase">Artist</span> <a href="https://www.instagram.com/esfp_stencils/" target="_blank">ESFP</a></p>
+				<p>ESFP is a streetartist heavily influenced by <a href="http://banksy.co.uk" target="_blank">Banksy</a>. In Arnhem he got some media attention by painting <a href="http://www.omroepgelderland.nl/nieuws/2045527/Heeft-Arnhem-een-eigen-Banksy" target="_blank">Nelson Mandela</a> under the Nelson Mandela bridge. </p>	
+			</div>	
+
+		</div>
+	</div>
+
+
+	</div> 
+	
+	<div id="button8" onclick="openVerf()"></div> 
+	<div id="verf" onclick="hideVerf()">
+
+	
+
+		<div class="kader">
+			<img id="plaatjeverf" src="image/2016Musis.jpg" alt="Musis">
+
+			<svg id="pijl2" data-name="pijl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.77 39"><defs></defs><title>pijl</title><polygon class="cls-2" points="0 19.5 33.77 39 33.77 0 0 19.5"/></svg>
+
+			
+			<div class="title">
+				<h3>Verfbrigade</h3>
+			</div>
+			<div class=tekst>
+
+				<p class="info"><span class="uppercase">Artist</span> <a href="Verfbrigade.nl" target="_blank">Verfbrigade</a> </p>
+				<p>A company run by Friso Hilhorst and Thomas van Os, founded in 2016. They were noticed by <a href="http://oogopnederland.nl/arnhem/2016/03/13/mahler/">the local newspaper</a> when making this piece .</p>	
+			</div>	
+
+		</div>
+	</div>
+
+
+	</div> 
+	
+	<div class="crosroad"></div>
+ <!-- audio -->
+  <audio id="crosroad" preload="auto">
+    <source src="audio/crosroad.m4a" type="audio/mp4" />
+   
+  </audio>
+	
+</body>
+</html>

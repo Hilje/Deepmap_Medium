@@ -1,0 +1,329 @@
+body {
+	font-family:helvetica;
+}
+
+p{
+	font-size:1.2em;
+	color:#88A8A2;
+}
+	
+	#background{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/background.png');
+	}
+
+
+
+/* hover layers*/
+	
+	#hover1{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/hover_personal.png');
+		visibility:hidden;
+	}
+
+
+	#button1{
+		position: absolute;
+		top:680px;
+		left:1100px;
+		width:200px;
+		height:40px;
+		cursor:pointer;		
+	}
+		
+	#hover2{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/hover_historic.png');
+		visibility:hidden;
+	}
+
+
+	#button2{
+		position: absolute;
+		top:740px;
+		left:1100px;
+		width:200px;
+		height:40px;
+		cursor:pointer;	
+	}
+	
+	/* 
+#hover3{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/hover_art.png');
+		visibility:hidden;
+	}
+
+
+	#button3{
+		position: absolute;
+		top:800px;
+		left:1100px;
+		width:200px;
+		height:40px;
+		cursor:pointer;		
+	}
+ */
+	
+	#hover4{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/hover_www.png');
+		visibility:hidden;
+	}
+
+
+	#button4{
+		position: absolute;
+		top:860px;
+		left:1100px;
+		width:200px;
+		height:40px;
+		cursor:pointer;		
+	}
+
+	
+
+		
+/* Show art layer*/
+#art{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:1382px;
+	height:1032px;
+	background-image: url('../image/click_art.png');
+	visibility:hidden;
+	
+}
+
+#button27{
+		position: absolute;
+		top:800px;
+		left:1100px;
+		width:200px;
+		height:40px;
+		cursor:pointer;		
+		
+		
+	}
+	
+#button28{
+		position: absolute;
+		top:800px;
+		left:1250px;
+		width:40px;
+		height:40px;
+		cursor:pointer;				
+	}
+
+	
+/* explore art*/
+
+#button100{
+		position: absolute;
+		top:140px;
+		left:370px;
+		width:300px;
+		height:100px;
+		cursor:pointer;		
+	}
+	
+#button101{
+		position: absolute;
+		top:85px;
+		left:109px;
+		width:40px;
+		height:40px;
+		cursor:pointer;		
+	}	
+	
+
+#graffiti {
+position: absolute;
+	top:0px;
+	left:0px;
+	width:1382px;
+	height:1032px;
+	background-image: url('../image/graffiti.png');
+	visibility:hidden;
+}
+
+#ESFP {
+	visibility:hidden;
+}
+
+.cls-1{fill:#88a8a2;}
+.cls-2{fill:#F0F9F7;}
+
+#pijl {
+	position: absolute;
+	left:270px;
+	top:30px;
+	width:30px;
+}
+#pijl2 {
+	position: absolute;
+	left:400px;
+	top:285px;
+	width:30px;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+	
+}
+
+.kader{
+	position: absolute;
+	left:300px;
+	top:100px;
+	
+	
+}
+
+.kader a {
+	color:#D91C5B;
+}
+.kader a:visited {
+	color:#88A8A2;
+	
+}
+
+#plaatje{
+	position:absolute;
+	height:800px;
+}
+
+.title {
+	position: absolute;
+	left:300px;
+	height:100px;
+	width:300px;
+	padding-left:20px;
+	padding-right:10px;
+	font-style: bold;
+	font-size:1.2em;
+	color: white;
+	background-color:#88A8A2;
+
+}
+
+.tekst{
+	position: absolute;
+	width:300px;
+	left:300px;
+	top:100px;
+	padding-left:20px;
+	padding-right:10px;
+	background-color:#F0F9F7;
+
+}
+
+
+.uppercase {
+	text-transform: uppercase;
+	font-size:1.1em;
+	font-style:bold;
+}
+
+
+
+.info {
+	font-style: bold;
+}
+
+#button7{
+		position: absolute;
+		top:330px;
+		left:280px;
+		width:90px;
+		height:300px;
+		cursor:pointer;
+		visibility:hidden;
+	}
+	
+#verf {
+	visibility:hidden;
+}
+		
+#plaatjeverf{
+	position:absolute;
+	top:350px;
+}
+
+#button8{
+		position: absolute;
+		top:350px;
+		left:400px;
+		width:540px;
+		height:150px;
+		cursor:pointer;
+		visibility:hidden;
+	}
+	
+.crosroad {
+  position: absolute;
+  background-image: url("../image/crosroad.gif");
+  width:400px;
+  height:464px;
+  top:230px;
+  left:430px;
+  border-radius:20px;
+  
+	
+
+}
+
+/*instructions*/
+	
+	#button5{
+		position: absolute;
+		top:70px;
+		left:1100px;
+		width:180px;
+		height:30px;
+		cursor:pointer;
+	}
+		
+		
+	#button6{
+		position: absolute;
+		top:70px;
+		left:1100px;
+		width:180px;
+		height:30px;
+		cursor:pointer;
+		visibility:hidden;
+	}
+	
+	#instructions{
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:1382px;
+		height:1032px;
+		background-image: url('../image/Instruction.png');
+		visibility:hidden;
+		
+	}
+	
